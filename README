@@ -1,0 +1,24 @@
+AUTHOR   : Om Jadhav
+EMAIL ID : omjadhav@cs.wisc.edu
+SESSION  : 304
+DATE     : 22 Sept 2016
+
+PROJECT 1A : SORTING WITH VARIABLE-SIZED RECORDS
+-------------------------------------------------------------------------------
+
+key features of the program :
+  a) Used qsort() function to sort 
+  b) Made only two read calls to read the complete file
+  c) used record data pointer structures for sorting purposes, which eliminated
+     data swaps.
+  d) used one write call per record.
+  
+
+PROJECT 1B : XV6 INTRO
+--------------------------------------------------------------------------------
+  a) watched videos to undestand the complete flow of systems calls from user 
+     space to kernel space and back to user space.
+  b) played around with XV6 code base
+  c) Implemented both System call int getnumsyscallp(void)
+     and user level application (syscallptest N) to test it.
+  d) used getpid() system call for testing purpose
